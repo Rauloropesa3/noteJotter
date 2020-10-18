@@ -6,9 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Raul Oropesa <alexoropesa1982@yahoo.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "require": "^2.4.20",
+    "util": "^0.12.3"
   }
 }
