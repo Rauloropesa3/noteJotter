@@ -10,12 +10,12 @@ app.use(express.static('public'));
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
-app.get("/notes", function(req, res) {
-    res.sendFile(path.join(mainDir, "notes.html"));
-});
+app.get("/notes",function (req,res) {
+        res.sendFile(path.join(mainDir, "notes.html"));
+    });
 
 app.get("/api/notes", function(req, res) {
-    res.sendFile(path.join(__dirname, "/db/db.json"));
+    res.sendFile(path.join(__dirname, "./db/db.json"));
 });
 
 app.get("/api/notes/:id", function(req, res) {
@@ -23,7 +23,7 @@ app.get("/api/notes/:id", function(req, res) {
     res.json(savedNotes[Number(req.params.id)]);
 });
 
-app.get("*", function(req, res) {
+app.get("*", function (req,res) {
     res.sendFile(path.join(mainDir, "index.html"));
 });
 
