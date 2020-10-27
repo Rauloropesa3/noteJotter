@@ -1,80 +1,96 @@
-# Unit 11 Express Homework: Note Taker
+# noteJotter
 
 ## Description
 
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+---
 
-* The application frontend has already been created, it's your job to build the backend and connect the two.
+Simply create and save notes, it's as easy as that.
 
-* The following HTML routes should be created:
+![License](https://img.shields.io/badge/LICENSE-MIT-maroon)
 
-  * GET `/notes` - Should return the `notes.html` file.
 
-  * GET `*` - Should return the `index.html` file
+## Table of content
 
-* The application should have a `db.json` file on the backend that will be used to store and retrieve notes using the `fs` module.
+---
 
-* The following API routes should be created:
+* [noteJotter](#noteJotter)  
+* [Description](#description)
+* [Table of content](#table-of-content)
+* [Installation](#installation)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Support/Questions](#supportquestions)
+* [License](#license)
 
-  * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
 
-  * POST `/api/notes` - Should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
+## Installation
 
-  * DELETE `/api/notes/:id` - Should receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique `id` when it's saved. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+---
 
-## User Story
+* ***get started***:
 
-AS A user, I want to be able to write and save notes
 
-I WANT to be able to delete notes I've written before
+## Setup
 
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+---
 
-## Business Context
+* node js
+* express
+>Windows 10
 
-For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
 
-## Acceptance Criteria
+* npm
+>npm install
+>npm i fs
+>npm i inquirer
+>npm i express
 
-Application should allow users to create and save notes.
 
-Application should allow users to view previously saved notes.
 
-Application should allow users to delete previously saved notes.
+>***Find me on Github:***
+>
+>***At Github:***
+>  <https://github.com/Rauloropesa3/noteJotter.git>
+ 
 
-## Deploying the App
 
-You will not be able to deploy your server side code on GitHub pages. This app should be deployed on Heroku. Carefully follow the [Heroku Guide](../04-Supplemental/HerokuGuide.md) for getting your app deployed on Heroku.
+## Contributing
 
-- - -
+---
 
-## Commit Early and Often
+***step 1***
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+* **Option 1**
+   - Fork this repo!
 
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
 
-Follow these guidelines for committing:
+* **Option 2**
+   - Clone thr repo to your local machine 
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+***step 2***
+  * Hack Away!!!
+  * Create a new pull request
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+## Support/Questions
 
-* Test your application before you commit to ensure functionality at every step in the development process.
+---
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
 
-## Submission on BCS
+Reach out to me if you have any questions!
 
-You are required to submit the following:
+* Via email:
+  - alexoropes1982@yahoo.com
 
-* The URL of the deployed application. This should be the link to the url provided by Heroku. Be sure not to submit a link to the Heroku dashboard.
 
-* The URL of the GitHub repository
+## License
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+---
+![License](https://img.shields.io/badge/LICENSE-MIT-maroon)
+
+* MIT License
+
+  <https://opensource.org/license/>
+
