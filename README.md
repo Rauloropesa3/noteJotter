@@ -13,45 +13,41 @@ Simply create and save notes, it's as easy as that.
 
 ---
 
-* [noteJotter](#noteJotter)  
-* [Description](#description)
-* [Table of content](#table-of-content)
-* [Installation](#installation)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Support/Questions](#supportquestions)
-* [License](#license)
+  - [Description](#description)
+  - [Table of content](#table-of-content)
+  - [Installation](#installation)
+  - [Support/Questions](#supportquestions)
+  - [Setup](#setup)
+  - [Contributing](#contributing)
+  - [Support/Questions](#supportquestions)
+  - [License](#license)
 
 
 ## Installation
 
 ---
 
-* ***get started***:
+> ***get started***:
 
+* node js
+* express
 
 ## Setup
 
 ---
 
-* node js
-* express
->Windows 10
-
-
 * npm
->npm install
->npm i fs
->npm i inquirer
->npm i express
+* npm install
+* npm i fs
+* npm i inquirer
+* npm i express
 
 
 
 >***Find me on Github:***
->
->***At Github:***
->  <https://github.com/Rauloropesa3/noteJotter.git>
+
+***At Github:***
+   <https://github.com/Rauloropesa3/noteJotter.git>
  
 
 
